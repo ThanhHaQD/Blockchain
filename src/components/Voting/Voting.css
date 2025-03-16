@@ -1,0 +1,178 @@
+.voting {
+  padding: 20px;
+  background-color: #f9f9f9; 
+  text-align: center;
+}
+
+.voting .container-main {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.voting h2 {
+  font-size: 28px;
+  color: rgb(194, 45, 45); 
+  margin-bottom: 15px;
+}
+
+/* Container cho từng bộ phim */
+.voting .container-item {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(116, 110, 110, 0.359);
+  display: flex;
+  justify-content: space-between;
+}
+
+.film-info h2 {
+  font-size: 22px;
+  color: #634949; 
+  margin: 0;
+  font-weight: bold;
+}
+
+.vote-btn-container {
+  text-align: right;
+}
+
+.vote-btn {
+  background-color: #498cad;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.vote-btn:hover:not(:disabled) {
+  background-color: #336781; 
+}
+
+.vote-btn:disabled {
+  background-color: #bdc3c7; 
+  cursor: not-allowed;
+}
+
+/* Thông báo khi đã bình chọn */
+.voting .container-item.success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #dff0d8; 
+  color: #3c763d;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+}
+
+/* Thông báo về cuộc bình chọn */
+.voting .container-item.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #d9edf7; 
+  color: #31708f;
+  padding: 20px; 
+  margin: 10px auto; 
+  border-radius: 8px;
+  max-width: 600px;
+}
+.film-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  text-align: left;
+  gap: 5px; 
+}
+
+.film-info h2 {
+  font-size: 22px;
+  color: #634949;
+  margin: 0;
+  font-weight: bold;
+}
+
+.film-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Thông báo kết thúc bình chọn */
+.voting .container-item.attention {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #d4edda; 
+  color: #2e7d32;
+  padding: 15px;
+  margin: 20px auto; 
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .voting .container-main{
+    padding: 15px;
+  }
+
+  .film-info h2 {
+    font-size: 20px;
+  }
+
+  .vote-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+.pagination .page-item {
+  list-style-type: none; 
+  padding: 0; 
+  display: inline-block; 
+  margin: 0 5px; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.pagination .page-link {
+  color: #498cad;
+  padding: 8px 12px; 
+  border: 1px solid #498cad; 
+  border-radius: 4px; 
+  transition: background-color 0.3s ease;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #498cad; 
+  color: white; 
+  border-color: #498cad; 
+}
+
+.pagination .page-link:hover {
+  background-color: #336781; 
+  color: white;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+

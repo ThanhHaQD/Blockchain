@@ -1,0 +1,91 @@
+.results-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.winner-section, .results-section {
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: center;
+}
+.winner-section {
+  width: 33%; /*chiếm 1/3 màn hình*/
+  margin: 0 auto; 
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+}
+
+/* Màu nền phần bảng kết quả */
+.results-section {
+  background: linear-gradient(135deg, #d5e1dd 0%, #dbe1e3 100%);
+}
+
+.winner-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.winner-card:hover {
+  transform: translateY(-10px);
+}
+
+.winner-tag {
+  font-size: 24px;
+  color: #ff4081;
+  font-weight: bold;
+}
+
+.winner-card .vote-count {
+  font-size: 18px;
+  color: #333;
+}
+
+.results-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.results-wrapper table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.results-wrapper table th {
+  background-color: #e4e4eb;
+  color: #2b2a2a;
+  font-weight: bold;
+}
+
+.results-wrapper .container-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.results-wrapper .container-item:hover {
+  background-color: #fafafa;
+}
+
+.results-wrapper h2 {
+  font-weight: bold;
+}
+
+.result center{
+  max-width: 600px;
+  background-color: #d1ecf1;
+  border-radius: 8px; 
+  color: #0c5460; 
+  border: 1px solid #7ea5bc;
+  padding: 15px; 
+  margin: 20px auto;
+}

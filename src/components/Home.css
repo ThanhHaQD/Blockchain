@@ -1,0 +1,205 @@
+/*home*/
+.home .container{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+.home .about-admin-election {
+    background-color: #f8f9fa;
+}
+.home input.form-control{
+    margin-bottom: 10px;
+}
+.col-md-6 {
+    padding: 10px;
+}
+.alert {
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.shadow-custom{
+    box-shadow: 0 1px 3px rgba(205, 43, 43, 0.2);
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+    }
+    .top-films {
+        flex-direction: row; 
+    }
+
+    .film-card {
+        width: 100%; 
+        max-width: 300px; 
+        margin: 0 auto; 
+    }
+}
+
+.h h3{
+    margin-top: 10px;
+}
+
+/*homeuser*/
+.user h1{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(194, 45, 45);
+}
+.user table{
+    max-width: 600px; 
+    width: 100%;
+    margin: 0 auto;  /* Canh giữa bảng */
+    padding: 10px; 
+    border: 1px solid lightgray;
+}
+
+.top-films-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+.top-films {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+.film-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    width: 250px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+  
+.film-card:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+}
+
+.home-film-image {
+    width: 100%;
+    height: 180px; 
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+  
+.home-film-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+}
+  
+.film-rank {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+  
+.film-name {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #555;
+}
+  
+.film-votes {
+    font-size: 1em;
+    color: #777;
+}
+  
+.film-1 {
+    order: 1;
+    font-size: 1.5rem;
+    background-color: #eee;
+    flex: 1 1 250px;
+}
+  
+.film-2, .film-3 {
+    order: 2;
+    font-size: 1.2rem;
+    background-color: #eee;
+    flex: 1 1 200px;
+}
+  
+.film-4, .film-5 {
+    order: 3;
+    font-size: 1.2rem;
+    background-color: #eee;
+    flex: 1 1 180px;
+}
+  
+/*startend*/
+.se .container-main .container-item{
+    border-top: 1px solid;
+    margin-bottom: 50px;
+}
+.se .attention{
+    border-top: 1px solid;
+}
+.restart{
+    background-color: #d1ecf1;
+    border-radius: 8px;
+    color: #0c5460; 
+    border: 1px solid #7ea5bc;
+    padding: 15px;
+    
+}
+.end{
+    background-color: #d4edda; 
+    border-radius: 0.25rem;
+    color: #155724; 
+    border: 1px solid #c3e6cb; 
+    padding: 0.75rem 1.25rem; 
+    margin-bottom: 1rem; /*10px*/
+}
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.ended {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #d4edda; 
+  color: #2e7d32;
+  padding: 15px;
+  margin: 20px auto; 
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.user-name{
+    color: #e667ad;
+    font-weight: bold;
+}
+
+  
+
+
+  
+  
+  
+
+
